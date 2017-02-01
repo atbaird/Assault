@@ -1,0 +1,32 @@
+﻿  Audio.cpp
+  Camera2D.cpp
+  ErrorWarningAssert.cpp
+  StringUtils.cpp
+  Time.cpp
+  XboxController.cpp
+  AABB2.cpp
+  ExtendedMath.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Core\Camera2D.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Math\AABB2.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Core\Audio.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Core\XboxController.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Core\Time.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Core\ErrorWarningAssert.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Math\ExtendedMath.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Core\StringUtils.cpp': No such file or directory
+  IntVector2.cpp
+  Vector2.cpp
+  Vector3.cpp
+  Renderer.cpp
+  Rgba.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Math\Vector2.cpp': No such file or directory
+c1xx : fatal error C1083: Cannot open source file: 'Math\IntVector2.cpp': No such file or directory
+  SpriteAnim.cpp
+c1xx : fatal error C1083: Cannot open source file: 'Math\Vector3.cpp': No such file or directory
+  SpriteSheet.cpp
+  Texture.cpp
+Renderer\Rgba.cpp(1): fatal error C1083: Cannot open include file: 'Engine/Renderer/Rgba.hpp': No such file or directory
+Renderer\SpriteAnim.cpp(1): fatal error C1083: Cannot open include file: 'Engine/Renderer/SpriteAnim.hpp': No such file or directory
+Renderer\Renderer.cpp(1): fatal error C1083: Cannot open include file: 'Engine/Renderer/Renderer.hpp': No such file or directory
+Renderer\SpriteSheet.cpp(1): fatal error C1083: Cannot open include file: 'Engine/Renderer/SpriteSheet.hpp': No such file or directory
+d:\github repos\assault\assault\include\engine\renderer\Texture.hpp(4): fatal error C1083: Cannot open include file: 'Engine/Math/IntVector2.hpp': No such file or directory (compiling source file Renderer\Texture.cpp)
